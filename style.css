@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz@0,14..32;1,14..32&family=League+Spartan:wght@100..900&display=swap");
+body {
+  font-family: "League Spartan", serif;
+}
+.container {
+  width: 90%;
+  max-width: 1150px;
+  margin: auto;
+}
+.big-text {
+  color: hsl(300, 43%, 22%);
+  width: 370px;
+  font-size: 60px;
+}
+.we-only-text {
+  color: hsl(303, 10%, 53%);
+  width: 370px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.name-text {
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 50px;
+}
+.verified {
+  color: hsl(333, 80%, 67%);
+  font-size: 16px;
+}
+.purple-text {
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  font-weight: 400;
+  /* margin-top: -30px; */
+}
+.image-name {
+  display: flex;
+  justify-content: space-between;
+  /* column-gap: -50px; */
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.star-section {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0px;
+  padding: 0px 32px;
+  width: 415px;
+  height: 56px;
+}
+.star-section2 {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0px;
+  padding: 0px 32px;
+  width: 415px;
+  height: 56px;
+}
+.star-section3 {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0px;
+  padding: 0px 32px;
+  width: 415px;
+  height: 56px;
+}
+.purple-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+  margin-top: 50px;
+}
+.small-image {
+  border-radius: 50%;
+}
+.colton-purple {
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  width: 350px;
+  height: 234px;
+  padding: 24px;
+}
+
+.irene-purple {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 8px;
+  width: 350px;
+  height: 234px;
+  padding: 24px;
+}
+.anne-purple {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 8px;
+  width: 350px;
+  height: 234px;
+  padding: 24px;
+}
