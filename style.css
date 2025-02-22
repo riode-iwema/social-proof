@@ -14,9 +14,13 @@ body {
 }
 .we-only-text {
   color: hsl(303, 10%, 53%);
-  width: 370px;
+  width: 445px;
+  font-size: 18px;
+  line-height: 26px;
+}
+.rated {
   font-size: 16px;
-  line-height: 22px;
+  color: hsl(300, 43%, 22%);
 }
 .name-text {
   color: hsl(0, 0%, 100%);
@@ -32,12 +36,12 @@ body {
   color: hsl(0, 0%, 100%);
   font-size: 18px;
   font-weight: 400;
-  /* margin-top: -30px; */
+  line-height: 25px;
 }
 .image-name {
   display: flex;
-  justify-content: space-between;
-  /* column-gap: -50px; */
+  align-items: center;
+  column-gap: 25px;
 }
 .top-section {
   display: flex;
@@ -65,6 +69,7 @@ body {
   padding: 0px 32px;
   width: 415px;
   height: 56px;
+  margin-left: 40px;
 }
 .star-section3 {
   background-color: hsl(300, 24%, 96%);
@@ -76,20 +81,20 @@ body {
   padding: 0px 32px;
   width: 415px;
   height: 56px;
+  margin-left: 80px;
 }
 .purple-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   column-gap: 40px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .small-image {
   border-radius: 50%;
 }
 .colton-purple {
   background-color: hsl(300, 43%, 22%);
-  color: hsl(0, 0%, 100%);
   border-radius: 8px;
   width: 350px;
   height: 234px;
@@ -102,6 +107,7 @@ body {
   width: 350px;
   height: 234px;
   padding: 24px;
+  margin-top: 35px;
 }
 .anne-purple {
   background-color: hsl(300, 43%, 22%);
@@ -109,4 +115,37 @@ body {
   width: 350px;
   height: 234px;
   padding: 24px;
+  margin-top: 70px;
+}
+@media screen and (max-width: 375px) {
+  .container {
+    width: 375px;
+    margin: 30px;
+  }
+  .top-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .review {
+    margin: 30px;
+  }
+  .purple-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .star-section,
+  .star-section2,
+  .star-section3 {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 6px 0px;
+    padding: auto;
+    width: 415px;
+    height: 70px;
+    padding-bottom: 10px;
+  }
 }
